@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+  app:
+    build: .
+    image: tcsapp
+    ports:
+      - 80:8080
